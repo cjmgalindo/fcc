@@ -1,0 +1,7 @@
+.boxButtons{
+    display: grid;
+    grid-template: repeat(4,1fr) / repeat(4,1fr);
+    margin: 10px 0;
+    justify-items: center;
+}
+

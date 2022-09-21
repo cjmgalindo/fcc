@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background-color: #dfdfe2;
+}
+
+.boxOne h1 {
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxOne p{
+    text-align: center;
+    width: 70%;
+    
+}
+.boxOne div img{
+    width: 200px;
+    max-width: 50%;
+    
+}
+
+
+.boxTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    height: auto;
+    background-color: #d0d0d5;
+}
+
+.boxTwo h1 {
+    margin-bottom: 150px;
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 0.5em;
+}
+
+.card{
+    
+    display: flex;
+    background-color: white;
+    margin: 0.2em 0;
+    width: 400px;
+    box-shadow: -1px 15px 23px 1px rgba(0,0,0,0.34);
+    border-radius: 15px;
+
+
+    cursor: pointer;
+
+}
+.card img{
+    width: 100px;
+}
+.card p{
+    font-size: small;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+@media (max-width: 500px) {
+    .boxOne{
+    
+    height: 88vh;
+
+    }
+
+    .boxOne p{
+        width: 100%;
+    }
+
+.boxTwo{
+    min-height: 97vh;
+}
+.card{
+    width: 100%;
+}
+}

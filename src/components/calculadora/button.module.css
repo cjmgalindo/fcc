@@ -1,0 +1,31 @@
+button{
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    user-select:none;
+    border-radius: 25px;
+
+}
+
+.btn{
+  background-color: #1b1b32;
+  max-width: 80%;
+  width: 80px;
+  max-height: 80%;
+  height: 80px;
+}
+
+.operator{
+    background-color: #124626;
+    max-width: 80%;
+    width: 80px;
+    max-height: 80%;
+    height: 80px;
+}
+
+.clear{
+    background-color: rgb(247, 214, 29);
+    width: 100%;
+}

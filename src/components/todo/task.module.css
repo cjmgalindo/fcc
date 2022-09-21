@@ -1,0 +1,17 @@
+.task{
+    background-color: #6B9BB8;
+    
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.done{
+    background-color: rgb(102, 114, 114);
+    text-decoration: line-through;
+    color:white;
+}

@@ -1,0 +1,26 @@
+.box{
+    background-color: rgb(44, 162, 209);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+
+.boxCalculator{
+    background-color: rgb(44, 162, 209);
+    display: grid;
+    grid-template: 1fr 4fr 1fr / 1fr;
+}
+
+.boxCalculator input {
+    margin: 10px;
+    background-color: #1b1b32;
+    border-radius: 25px;
+    color: white;
+    padding: 0 20px;
+    font-size: 1em;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

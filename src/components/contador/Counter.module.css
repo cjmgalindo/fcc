@@ -1,0 +1,29 @@
+.boxMain{
+    /* border: 1px solid white; */
+    
+   
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.boxCounter{
+    font-size: 8em;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 70%;
+    padding: 10px;
+}
+
+.buttons{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+

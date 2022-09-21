@@ -1,0 +1,36 @@
+.container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    background-color: white;
+    width: 90%;
+}
+
+.container img{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.cardInfo {
+    text-align: center;
+    padding: 3%;
+    min-height: auto;
+}
+
+.cardInfo div {
+    padding-bottom: 30px;
+}
+
+@media (max-width: 700px){
+    .container {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
