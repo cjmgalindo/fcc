@@ -1,6 +1,6 @@
 import React from 'react'
 import Task from "./Task";
-import s from './tasks.module.css'
+
 
 function Tasks({ input }) {
   return (
